@@ -20,12 +20,13 @@ class ToDoItemTests: XCTestCase {
         super.tearDown()
     }
     
-    func test_Init_TakesTitle() {
+    func test_Init_WhenGivenTitle_SetsTitle() {
         let item = ToDoItem(title: "Foo")
-        XCTAssertNotNil(item, "item should not be nil")
+        XCTAssertEqual(item.title, "Foo", "should set title")
     }
     
-    func test_Init_TakesTitleAndDesciption() {
-        _ = ToDoItem(title: "Foo", itemDescription: "Bar")
+    func test_Init_WhenGivenDescription_SetsDescription() {
+        let item = ToDoItem(title: "", itemDescription: "Bar")
+        XCTAssertEqual(item.itemDescription, "Bar", "should set itemDescription")
     }
 }
