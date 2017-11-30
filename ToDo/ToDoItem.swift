@@ -10,4 +10,5 @@ import Foundation
 
 struct ToDoItem {
     let title: String
+    let itemDescription: String?
 }

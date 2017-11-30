@@ -21,9 +21,11 @@ class ToDoItemTests: XCTestCase {
     }
     
     func test_Init_TakesTitle() {
-        
-        // In Swift, it always return nil, means XCTAssertNotNil is useless
         let item = ToDoItem(title: "Foo")
         XCTAssertNotNil(item, "item should not be nil")
+    }
+    
+    func test_Init_TakesTitleAndDesciption() {
+        _ = ToDoItem(title: "Foo", itemDescription: "Bar")
     }
 }
