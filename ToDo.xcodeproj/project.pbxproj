@@ -12,7 +12,7 @@
 		55C4CE0B1FCFA8100030E213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C4CE091FCFA8100030E213 /* Main.storyboard */; };
 		55C4CE0D1FCFA8100030E213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C4CE0C1FCFA8100030E213 /* Assets.xcassets */; };
 		55C4CE101FCFA8100030E213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C4CE0E1FCFA8100030E213 /* LaunchScreen.storyboard */; };
-		55C4CE1B1FCFA8100030E213 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4CE1A1FCFA8100030E213 /* ToDoTests.swift */; };
+		55C4CE261FCFB1320030E213 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4CE251FCFB1320030E213 /* ToDoItemTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,8 @@
 		55C4CE0F1FCFA8100030E213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55C4CE111FCFA8100030E213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C4CE161FCFA8100030E213 /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55C4CE1A1FCFA8100030E213 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		55C4CE1C1FCFA8100030E213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C4CE251FCFB1320030E213 /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		55C4CE191FCFA8100030E213 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				55C4CE1A1FCFA8100030E213 /* ToDoTests.swift */,
+				55C4CE251FCFB1320030E213 /* ToDoItemTests.swift */,
 				55C4CE1C1FCFA8100030E213 /* Info.plist */,
 			);
 			path = ToDoTests;
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C4CE1B1FCFA8100030E213 /* ToDoTests.swift in Sources */,
+				55C4CE261FCFB1320030E213 /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
